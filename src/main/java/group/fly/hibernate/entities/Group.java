@@ -1,6 +1,7 @@
 package group.fly.hibernate.entities;
+
 // default package
-// Generated May 16, 2022, 10:22:17 PM by Hibernate Tools 4.3.5.Final
+// Generated May 17, 2022, 10:11:26 PM by Hibernate Tools 4.3.5.Final
 
 import java.util.Date;
 import javax.persistence.Column;
@@ -24,15 +25,17 @@ public class Group implements java.io.Serializable {
 	private String idBotJoined;
 	private Date createdAt;
 	private Date updatedAt;
+	private Integer chatId;
 
 	public Group() {
 	}
 
-	public Group(String groupName, String idBotJoined, Date createdAt, Date updatedAt) {
+	public Group(String groupName, String idBotJoined, Date createdAt, Date updatedAt, Integer chatId) {
 		this.groupName = groupName;
 		this.idBotJoined = idBotJoined;
 		this.createdAt = createdAt;
 		this.updatedAt = updatedAt;
+		this.chatId = chatId;
 	}
 
 	@Id
@@ -83,6 +86,15 @@ public class Group implements java.io.Serializable {
 
 	public void setUpdatedAt(Date updatedAt) {
 		this.updatedAt = updatedAt;
+	}
+
+	@Column(name = "chat_id")
+	public Integer getChatId() {
+		return this.chatId;
+	}
+
+	public void setChatId(Integer chatId) {
+		this.chatId = chatId;
 	}
 
 }
