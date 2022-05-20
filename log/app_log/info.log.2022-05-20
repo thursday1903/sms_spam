@@ -1,0 +1,21 @@
+20-05-22 23:58:49,307 28 0    [main] INFO  java.lang.Class  - start app scan  and push user and group to mysql
+20-05-22 23:58:50,712 66 1405 [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+20-05-22 23:58:50,716 54 1409 [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.7.Final}
+20-05-22 23:58:50,717 239 1410 [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+20-05-22 23:58:50,718 346 1411 [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+20-05-22 23:58:50,851 145 1544 [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-05-22 23:58:50,933 62 1626 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-05-22 23:58:50,935 47 1628 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+20-05-22 23:58:51,482 28 2175 [pool-1-thread-1] INFO  java.lang.Class  - start user:null
+20-05-22 23:58:51,518 28 2211 [pool-1-thread-2] INFO  java.lang.Class  - get group: null
+20-05-22 23:59:21,738 28 32431 [pool-1-thread-1] INFO  java.lang.Class  - start user:null
+20-05-22 23:59:21,792 28 32485 [pool-1-thread-2] INFO  java.lang.Class  - get group: null
+20-05-22 23:59:38,266 28 0    [main] INFO  java.lang.Class  - start app scan  and push user and group to mysql
+20-05-22 23:59:39,728 66 1462 [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+20-05-22 23:59:39,732 54 1466 [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.7.Final}
+20-05-22 23:59:39,733 239 1467 [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+20-05-22 23:59:39,734 346 1468 [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+20-05-22 23:59:39,863 145 1597 [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+20-05-22 23:59:39,944 62 1678 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+20-05-22 23:59:39,947 47 1681 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+20-05-22 23:59:40,480 28 2214 [main] INFO  java.lang.Class  - start user:null

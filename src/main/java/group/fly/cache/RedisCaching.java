@@ -15,6 +15,8 @@ public class RedisCaching {
 
 	private static RedisCaching instance;
 	static Integer REDIS_DEFAULT_DB = 0;
+	static public String tele_user_queue = "";
+	static public String tele_group_queue = "";
 
 	public static RedisCaching getInstance() {
 		if (instance == null) {
@@ -40,6 +42,8 @@ public class RedisCaching {
 					applicationConfigure.getRedis_port(), 60000);
 		}
 		REDIS_DEFAULT_DB = applicationConfigure.getRedis_db();
+		tele_user_queue = applicationConfigure.getTele_user_queue();
+		tele_group_queue = applicationConfigure.getTele_group_queue();
 		instance = this;
 	}
 

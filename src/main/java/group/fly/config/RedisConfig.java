@@ -6,7 +6,24 @@ public class RedisConfig {
 	Integer redis_port;
 	String redis_pass="";
 	Integer redis_db;
+	String tele_user_queue;
+	String tele_group_queue;
+	
+	public String getTele_user_queue() {
+		return tele_user_queue;
+	}
 
+	public String getTele_group_queue() {
+		return tele_group_queue;
+	}
+
+	public void setTele_group_queue(String tele_group_queue) {
+		this.tele_group_queue = tele_group_queue;
+	}
+
+	public void setTele_user_queue(String tele_user_queue) {
+		this.tele_user_queue = tele_user_queue;
+	}
 	public Integer getRedis_db() {
 		return redis_db;
 	}

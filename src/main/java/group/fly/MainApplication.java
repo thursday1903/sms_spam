@@ -32,8 +32,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.springframework.context.annotation.Configuration;
 
 import group.fly.cache.RedisCaching;
-import group.fly.hibernate.entities.Group;
-import group.fly.hibernate.home.GroupHome;
 import group.fly.transport.entities.TblMoneyTransferTransaction;
 import group.fly.utilities.Classloader;
 import group.fly.utilities.Logs;
@@ -67,12 +65,6 @@ public class MainApplication {
 	public static void main(String[] args) {
 		Classloader.loadLib();
 		setTimeZone();
-		try {
-			new GroupHome().listAllObject(new Group());
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 	}
 
 	
