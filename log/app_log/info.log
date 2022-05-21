@@ -1,1 +1,199 @@
 21-05-22 00:00:10,783 28 32517 [main] INFO  java.lang.Class  - start user:null
+21-05-22 00:00:40,944 28 62678 [main] INFO  java.lang.Class  - start user:null
+21-05-22 00:01:11,113 28 92847 [main] INFO  java.lang.Class  - start user:null
+21-05-22 00:01:41,278 28 123012 [main] INFO  java.lang.Class  - start user:null
+21-05-22 00:02:11,440 28 153174 [main] INFO  java.lang.Class  - start user:null
+21-05-22 00:02:41,622 28 183356 [main] INFO  java.lang.Class  - start user:null
+21-05-22 00:03:11,798 28 213532 [main] INFO  java.lang.Class  - start user:null
+21-05-22 00:03:42,541 28 244275 [main] INFO  java.lang.Class  - start user:null
+21-05-22 00:04:12,722 28 274456 [main] INFO  java.lang.Class  - start user:null
+21-05-22 00:11:42,820 28 0    [main] INFO  java.lang.Class  - start app scan  and push user and group to mysql
+21-05-22 00:11:45,540 66 2720 [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+21-05-22 00:11:45,549 54 2729 [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.7.Final}
+21-05-22 00:11:45,552 239 2732 [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+21-05-22 00:11:45,554 346 2734 [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+21-05-22 00:11:45,777 145 2957 [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-05-22 00:11:45,905 62 3085 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+21-05-22 00:11:45,909 47 3089 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+21-05-22 00:12:01,642 28 18822 [main] INFO  java.lang.Class  - start user:null
+21-05-22 00:13:14,137 28 0    [main] INFO  java.lang.Class  - start app scan  and push user and group to mysql
+21-05-22 00:13:15,762 66 1625 [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+21-05-22 00:13:15,769 54 1632 [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.7.Final}
+21-05-22 00:13:15,772 239 1635 [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+21-05-22 00:13:15,774 346 1637 [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+21-05-22 00:13:15,969 145 1832 [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-05-22 00:13:16,071 62 1934 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+21-05-22 00:13:16,075 47 1938 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+21-05-22 00:13:19,552 28 5415 [main] INFO  java.lang.Class  - get group: null
+21-05-22 00:14:18,646 28 64509 [main] INFO  java.lang.Class  - get group: null
+21-05-22 00:14:48,823 28 94686 [main] INFO  java.lang.Class  - get group: null
+21-05-22 00:16:41,816 28 0    [main] INFO  java.lang.Class  - start app scan  and push user and group to mysql
+21-05-22 00:16:43,201 66 1385 [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+21-05-22 00:16:43,204 54 1388 [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.7.Final}
+21-05-22 00:16:43,204 239 1388 [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+21-05-22 00:16:43,206 346 1390 [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+21-05-22 00:16:43,340 145 1524 [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-05-22 00:16:43,421 62 1605 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+21-05-22 00:16:43,424 47 1608 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+21-05-22 00:16:43,973 28 2157 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5382142414, "group_id": 1316691430, "access_hash": -3511016479126065478}
+21-05-22 00:16:43,987 28 2171 [pool-1-thread-2] INFO  java.lang.Class  - get group: {"group_id": 1316691430, "group_name": "Make Money Crypto"}
+21-05-22 00:16:44,538 145 2722 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-05-22 00:16:44,542 62 2726 [pool-1-thread-1] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+21-05-22 00:16:44,543 47 2727 [pool-1-thread-1] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+21-05-22 00:16:44,854 28 3038 [pool-1-thread-1] INFO  java.lang.Class  - finish user:{"user_id": 5382142414, "group_id": 1316691430, "access_hash": -3511016479126065478}
+21-05-22 00:16:44,951 144 3135 [pool-1-thread-2] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1064, SQLState: 42000
+21-05-22 00:16:44,951 146 3135 [pool-1-thread-2] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group (chat_id, created_at, group_name, id_bot_joined, updated_at) values (13166' at line 1
+21-05-22 00:16:45,001 76 3185 [pool-1-thread-2] FATAL java.lang.Class  - persist failed[{"groupName":"Make Money Crypto","createdAt":"May 21, 2022 12:16:43 AM","chatId":1316691430}]
+org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:490)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:195)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:179)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:214)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789)
+	at group.fly.hibernate.home.BaseHibernateHome.persist(BaseHibernateHome.java:54)
+	at group.fly.business.BuzTeleGroup.insertGroup(BuzTeleGroup.java:61)
+	at group.fly.business.BuzTeleGroup.process(BuzTeleGroup.java:48)
+	at group.fly.business.BuzTeleGroup.run(BuzTeleGroup.java:72)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group (chat_id, created_at, group_name, id_bot_joined, updated_at) values (13166' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1912)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2133)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2067)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5175)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2052)
+	at com.zaxxer.hikari.proxy.PreparedStatementProxy.executeUpdate(PreparedStatementProxy.java:61)
+	at com.zaxxer.hikari.proxy.PreparedStatementJavassistProxy.executeUpdate(PreparedStatementJavassistProxy.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 26 more
+21-05-22 00:16:45,061 28 3245 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5336399768, "username": "HuseinSalmanov", "group_id": 1316691430, "access_hash": -1889427858394107995}
+21-05-22 00:16:45,132 28 3316 [pool-1-thread-2] INFO  java.lang.Class  - finish group: {"group_id": 1316691430, "group_name": "Make Money Crypto"}
+21-05-22 00:16:45,327 28 3511 [pool-1-thread-1] INFO  java.lang.Class  - finish user:{"user_id": 5336399768, "username": "HuseinSalmanov", "group_id": 1316691430, "access_hash": -1889427858394107995}
+21-05-22 00:16:45,346 28 3530 [pool-1-thread-2] INFO  java.lang.Class  - get group: null
+21-05-22 00:16:45,735 28 3919 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5008861415, "group_id": 1316691430, "access_hash": 332589650343195815}
+21-05-22 00:16:46,003 28 4187 [pool-1-thread-1] INFO  java.lang.Class  - finish user:{"user_id": 5008861415, "group_id": 1316691430, "access_hash": 332589650343195815}
+21-05-22 00:16:46,206 28 4390 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 1380359783, "username": "shidogiang", "group_id": 1316691430, "access_hash": 4295754992891468560}
+21-05-22 00:16:46,427 28 4611 [pool-1-thread-1] INFO  java.lang.Class  - finish user:{"user_id": 1380359783, "username": "shidogiang", "group_id": 1316691430, "access_hash": 4295754992891468560}
+21-05-22 00:16:46,641 28 4825 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5249404354, "username": "BryceCraig", "group_id": 1316691430, "access_hash": -5983057461628921398}
+21-05-22 00:16:46,878 28 5062 [pool-1-thread-1] INFO  java.lang.Class  - finish user:{"user_id": 5249404354, "username": "BryceCraig", "group_id": 1316691430, "access_hash": -5983057461628921398}
+21-05-22 00:16:47,091 28 5275 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5337289528, "group_id": 1316691430, "access_hash": 3049438051311527895}
+21-05-22 00:16:47,350 28 5534 [pool-1-thread-1] INFO  java.lang.Class  - finish user:{"user_id": 5337289528, "group_id": 1316691430, "access_hash": 3049438051311527895}
+21-05-22 00:26:34,696 66 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+21-05-22 00:26:34,703 54 7    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.7.Final}
+21-05-22 00:26:34,704 239 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+21-05-22 00:26:34,705 346 9    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+21-05-22 00:26:34,826 145 130  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-05-22 00:26:34,898 62 202  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+21-05-22 00:26:34,901 47 205  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+21-05-22 00:26:35,335 144 639  [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 1064, SQLState: 42000
+21-05-22 00:26:35,335 146 639  [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group (chat_id, created_at, group_name, id_bot_joined, updated_at) values (16530' at line 1
+21-05-22 00:26:35,411 76 715  [main] FATAL java.lang.Class  - persist failed[{"groupName":"xxx","idBotJoined":"xyz","createdAt":"May 21, 2022 12:26:33 AM","updatedAt":"May 21, 2022 12:26:33 AM","chatId":1653067593279}]
+org.hibernate.exception.SQLGrammarException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:80)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:49)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:126)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:112)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:211)
+	at org.hibernate.id.IdentityGenerator$GetGeneratedKeysDelegate.executeAndExtract(IdentityGenerator.java:96)
+	at org.hibernate.id.insert.AbstractReturningDelegate.performInsert(AbstractReturningDelegate.java:58)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3032)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3558)
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:98)
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:490)
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:195)
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:179)
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:214)
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:324)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:288)
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:194)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:125)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:206)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:149)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:75)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:811)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:784)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:789)
+	at group.fly.hibernate.home.BaseHibernateHome.persist(BaseHibernateHome.java:54)
+	at group.fly.hibernate.home.GroupHome.main(GroupHome.java:16)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group (chat_id, created_at, group_name, id_bot_joined, updated_at) values (16530' at line 1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3933)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3869)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2524)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2675)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2465)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1912)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2133)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2067)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5175)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2052)
+	at com.zaxxer.hikari.proxy.PreparedStatementProxy.executeUpdate(PreparedStatementProxy.java:61)
+	at com.zaxxer.hikari.proxy.PreparedStatementJavassistProxy.executeUpdate(PreparedStatementJavassistProxy.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	... 21 more
+21-05-22 00:28:15,264 66 0    [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+21-05-22 00:28:15,269 54 5    [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.7.Final}
+21-05-22 00:28:15,270 239 6    [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+21-05-22 00:28:15,272 346 8    [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+21-05-22 00:28:15,394 145 130  [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-05-22 00:28:15,466 62 202  [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+21-05-22 00:28:15,469 47 205  [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+21-05-22 12:41:34,556 28 0    [main] INFO  java.lang.Class  - start app scan  and push user and group to mysql
+21-05-22 12:41:39,256 66 4700 [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+21-05-22 12:41:39,267 54 4711 [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.7.Final}
+21-05-22 12:41:39,270 239 4714 [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+21-05-22 12:41:39,273 346 4717 [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+21-05-22 12:41:39,706 145 5150 [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-05-22 12:41:39,917 62 5361 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+21-05-22 12:41:39,925 47 5369 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+21-05-22 12:41:41,742 28 7186 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5053648884, "group_id": 1316691430, "access_hash": 4276175829503077835}
+21-05-22 12:41:41,780 28 7224 [pool-1-thread-2] INFO  java.lang.Class  - get group: {"group_id": 1316691430, "group_name": "Make Money Crypto"}
+21-05-22 12:41:44,031 145 9475 [pool-1-thread-1] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+21-05-22 12:41:44,051 62 9495 [pool-1-thread-1] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+21-05-22 12:41:44,053 47 9497 [pool-1-thread-1] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+21-05-22 12:41:45,351 28 10795 [pool-1-thread-1] INFO  java.lang.Class  - finish user:{"user_id": 5053648884, "group_id": 1316691430, "access_hash": 4276175829503077835}
+21-05-22 12:41:46,129 28 11573 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5193463366, "group_id": 1316691430, "access_hash": -8567770711615513381}
+21-05-22 12:41:46,334 28 11778 [pool-1-thread-2] INFO  java.lang.Class  - finish group: {"group_id": 1316691430, "group_name": "Make Money Crypto"}
+21-05-22 12:41:47,152 28 12596 [pool-1-thread-2] INFO  java.lang.Class  - get group: null
+21-05-22 12:41:47,153 28 12597 [pool-1-thread-1] INFO  java.lang.Class  - finish user:{"user_id": 5193463366, "group_id": 1316691430, "access_hash": -8567770711615513381}
+21-05-22 12:41:47,972 28 13416 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5249498245, "group_id": 1316691430, "access_hash": -2834390583751135140}
+21-05-22 12:41:49,007 28 14451 [pool-1-thread-1] INFO  java.lang.Class  - finish user:{"user_id": 5249498245, "group_id": 1316691430, "access_hash": -2834390583751135140}
+21-05-22 12:41:49,816 28 15260 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5277858212, "group_id": 1316691430, "access_hash": -5825799214158757949}
