@@ -197,3 +197,4 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have a
 21-05-22 12:41:47,972 28 13416 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5249498245, "group_id": 1316691430, "access_hash": -2834390583751135140}
 21-05-22 12:41:49,007 28 14451 [pool-1-thread-1] INFO  java.lang.Class  - finish user:{"user_id": 5249498245, "group_id": 1316691430, "access_hash": -2834390583751135140}
 21-05-22 12:41:49,816 28 15260 [pool-1-thread-1] INFO  java.lang.Class  - start user:{"user_id": 5277858212, "group_id": 1316691430, "access_hash": -5825799214158757949}
+21-05-22 13:08:43,491 28 0    [main] INFO  java.lang.Class  - start app scan  and push user and group to mysql
