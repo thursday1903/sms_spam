@@ -16,10 +16,10 @@ public class MainProcess {
 		LOGS.info("start app scan  and push user and group to mysql");
 		BuzTeleUser buzTeleUser = new BuzTeleUser();
 		BuzTeleGroup buzTeleGroup = new BuzTeleGroup();
-//		buzTeleUser.process();
+		buzTeleUser.process();
 //		buzTeleGroup.process();
-		new Thread(buzTeleUser).start();
-		new Thread(buzTeleGroup).start();
+//		ThreadPool.GetInstance().execute(buzTeleUser);
+//		ThreadPool.GetInstance().execute(buzTeleGroup);
 	}
 
 

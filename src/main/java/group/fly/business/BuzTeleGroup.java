@@ -52,6 +52,7 @@ public class BuzTeleGroup implements Runnable{
 				Group group = new Group();
 				group.setChatId(json.getLong("group_id"));
 				group.setGroupName(json.getString("group_name"));
+				group.setTotalMember(json.getInt("total_member"));
 				group.setCreatedAt(new Date());
 				insertGroup(group);
 				logs.info("finish group: "+ jsonGroup);
