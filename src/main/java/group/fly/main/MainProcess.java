@@ -18,8 +18,8 @@ public class MainProcess {
 		BuzTeleGroup buzTeleGroup = new BuzTeleGroup();
 //		buzTeleUser.process();
 //		buzTeleGroup.process();
-		ThreadPool.GetInstance().execute(buzTeleUser);
-		ThreadPool.GetInstance().execute(buzTeleGroup);
+		new Thread(buzTeleUser).start();
+		new Thread(buzTeleGroup).start();
 	}
 
 

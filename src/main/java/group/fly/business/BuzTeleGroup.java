@@ -8,6 +8,7 @@ import group.fly.cache.RedisCaching;
 import group.fly.hibernate.entities.Group;
 import group.fly.hibernate.home.GroupHome;
 import group.fly.utilities.Logs;
+import redis.clients.jedis.Jedis;
 
 import java.util.Date;
 
@@ -27,9 +28,16 @@ public class BuzTeleGroup implements Runnable{
 		Gson gson = new GsonBuilder().create();
 		JSONObject json;
 
+		Jedis jedis  = null;
+		try {			
+			jedis  = redisClient.getRedisConnection();
+		} catch (Exception e) {
+			// TODO: handle exception
+						
+		}
 		while (true) {
 			try {
-				jsonGroup = redisClient.getRedisConnection().lpop(redisClient.tele_group_queue);
+				jsonGroup = jedis.lpop(redisClient.tele_group_queue);
 				logs.info("get group: "+ jsonGroup);
 				if (jsonGroup == null) {
 					Thread.sleep(30000);

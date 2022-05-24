@@ -1,5 +1,5 @@
 #!/bin/sh
-SERVICE_NAME=fly_service
+SERVICE_NAME=sms spam
 SCRIPT_PATH="pwd"
 
 SOURCE="${BASH_SOURCE[0]}"
@@ -10,8 +10,8 @@ while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symli
 done
 DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 
-PATH_TO_JAR=$DIR/Fly-0.0.1-SNAPSHOT.jar
-PID_PATH_NAME=$DIR/fly_service-pid
+PATH_TO_JAR=$DIR/spam_sms-0.0.1-SNAPSHOT.jar
+PID_PATH_NAME=$DIR/sms-spam-pid
 
 echo "path to jar: $PATH_TO_JAR..."
 case $1 in

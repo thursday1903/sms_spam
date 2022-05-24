@@ -15,6 +15,7 @@ import group.fly.hibernate.entities.SpamUsers;
 import group.fly.hibernate.home.GroupHome;
 import group.fly.hibernate.home.SpamUsersHome;
 import group.fly.utilities.Logs;
+import redis.clients.jedis.Jedis;
 
 public class BuzTeleUser implements Runnable{
 	static final Logs logs = new Logs(MainApplication.class);
@@ -32,10 +33,17 @@ public class BuzTeleUser implements Runnable{
 		String phoneNumber;
 		String username;
 		String accessHash;
-
+		
+		Jedis jedis  = null;
+		try {			
+			jedis  = redisClient.getRedisConnection();
+		} catch (Exception e) {
+			// TODO: handle exception
+						
+		}
 		while (true) {
 			try {
-				jsonUser = redisClient.getRedisConnection().lpop(redisClient.tele_user_queue);
+				jsonUser = jedis.lpop(redisClient.tele_user_queue);
 				logs.info("start user:" + jsonUser);
 				if (jsonUser == null) {
 					Thread.sleep(30000);
