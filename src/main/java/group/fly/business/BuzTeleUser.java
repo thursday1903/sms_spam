@@ -64,7 +64,7 @@ public class BuzTeleUser implements Runnable{
 				username = getJsonString(json, "username");
 				if (username != null)
 					user.setUserNameTele(username);
-				accessHash = getJsonString(json, "access_hash");
+				accessHash = json.getBigDecimal("access_hash").toPlainString();
 				if (accessHash != null)
 					user.setAccessHash(accessHash);
 				user.setCreatedAt(new Date());

@@ -3,6 +3,7 @@ package group.fly.main;
 
 import java.util.concurrent.TimeUnit;
 
+import org.json.JSONObject;
 import org.web3j.protocol.Web3j;
 import org.web3j.protocol.core.DefaultBlockParameter;
 import org.web3j.protocol.core.Request;
@@ -14,6 +15,14 @@ import org.web3j.protocol.http.HttpService;
 
 public class MainTest {
 	public static void main(String[] args) {
+		
+		String json = "{\"user_id\": 471574248, \"username\": \"vietanh85kz\", \"group_id\": 623703221, \"phone_number\": \"84933045719\", \"access_hash\": 9116550884046823763}";
+		JSONObject jsonTmp = new JSONObject(json);
+		System.out.println(jsonTmp.getBigDecimal("access_hash").toPlainString());;
+		
+		String json2 = "{\"group_id\": 1582539236, \"group_name\": \"group test\", \"total_member\": 4}";
+		JSONObject jsonTmp2 = new JSONObject(json2);
+		System.out.println("===>"+jsonTmp2.getInt("total_member"));
 		DefaultBlockParameter detaul = null;
 
 		try {
